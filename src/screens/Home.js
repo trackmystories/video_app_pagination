@@ -24,6 +24,7 @@ export default function Home() {
         let updateArray = shallowClone.map(v => ({
           ...v,
           video: 'https://www.youtube.com/embed/MtrByL3I2gA',
+          recordingTime: '2:45 mins',
         }));
         console.log(updateArray);
         setData(data.concat(updateArray));
@@ -63,7 +64,7 @@ export default function Home() {
               <Text style={styles.text}>
                 {item.title.replace(
                   item.title,
-                  `DASH CAM CLEVELAND ${item.id}`,
+                  `DASH CAM CLEVELAND ${item.id} with recording time of ${item.recordingTime}`,
                 )}
               </Text>
             </View>
@@ -77,6 +78,7 @@ export default function Home() {
 const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
+    fontSize: 10,
     marginBottom: 20,
     fontWeight: 'bold',
   },
