@@ -1,4 +1,4 @@
-# React Native flow pagination example
+# React Native Flow pagination example
 
 <!-- ![screen.png](./assets/screen.png) -->
 <img src="./assets/screen.png" width="350" alt="screen.png">
