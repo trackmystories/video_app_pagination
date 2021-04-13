@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <View>
       <View>
-        <Intro title="Welcome to a sample traffic video app" />
+        <Intro title="Welcome to a sample pagination video app" />
 
         <FlatList
           data={data}
