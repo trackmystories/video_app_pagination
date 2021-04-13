@@ -114,7 +114,6 @@
 				121B07EFC39170E77822F9E4 /* Pods-video_app-video_appTests.debug.xcconfig */,
 				40E7DDA0B2DF0B0D68AE8111 /* Pods-video_app-video_appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7NC4VUZU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = video_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7NC4VUZU;
 				INFOPLIST_FILE = video_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
