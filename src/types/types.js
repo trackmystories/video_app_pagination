@@ -11,4 +11,5 @@ export type ListItemProps = {
 
 export type RNVideoProps = {
   videoSrc: any,
+  image: any,
 };

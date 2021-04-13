@@ -53,7 +53,13 @@ export default function Home() {
           onEndReachedThreshold={0}
           renderItem={({item}) => (
             <View>
-              <RNVideo videoSrc={item.video} />
+              <RNVideo
+                image={item.url.replace(
+                  item.url,
+                  'https://images.pexels.com/photos/1600757/pexels-photo-1600757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+                )}
+                videoSrc={item.video}
+              />
               <Text style={styles.text}>
                 {item.title.replace(
                   item.title,
