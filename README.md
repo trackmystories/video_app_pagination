@@ -14,4 +14,6 @@
 
 4. **Paginates data with concat + page number**
 
-5. **data source https://jsonplaceholder.typicode.com/photos?_limit=10&_page=**
+5. **API used to "sugar-coat" custom data : https://jsonplaceholder.typicode.com/photos?_limit=10&_page=**
+
+**Note:  https://jsonplaceholder.typicode.com/photos?_limit=10&_page= API only serves as a data model to showcase the handling of numerous(Thousands) of objects within the array,with javascript the rendered output is coated on top of, or added into the cloned array objects of the api.**
