@@ -3,6 +3,9 @@
 <!-- ![screen.png](./assets/screen.png) -->
 <img src="./assets/screen.png" width="350" alt="screen.png">
 
+** Main stack: react native, flow, styled-components **
+
+
 1. ** Fetches url from a remote url **
 
 2. ** Shallow clones data using the spread syntax let shallowClone = [...result] **
