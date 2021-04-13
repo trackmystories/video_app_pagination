@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import * as React from 'react';
 import {StyleSheet, View, Image} from 'react-native';
 import {WebView} from 'react-native-webview';
 import {RNVideoProps} from '../types/types';
