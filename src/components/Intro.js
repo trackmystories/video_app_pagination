@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {View, Text} from 'react-native';
 import {IntroWrapper, Title} from './styledComponents/Styles';
 import {IntroProps} from '../types/types';
 

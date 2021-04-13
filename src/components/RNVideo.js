@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {AppRegistry, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import {WebView} from 'react-native-webview';
 import {RNVideoProps} from '../types/types';
 
