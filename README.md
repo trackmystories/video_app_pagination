@@ -14,4 +14,4 @@
 
 4. **Paginates data with concat + page number**
 
-5. **data source https://jsonplaceholder.typicode.com/photos?_limit=10&_page=**
+5. **api used to "sugar-coat" custom data : https://jsonplaceholder.typicode.com/photos?_limit=10&_page=**
