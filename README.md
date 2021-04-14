@@ -5,7 +5,7 @@
 
 **Main stack: react native, flow, styled-components**
 
-***This app uses flow for typechecking.***
+***This app uses flow within context to type checking.***
 
 1. **Fetches url from a remote url**
 
