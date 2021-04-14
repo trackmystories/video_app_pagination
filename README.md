@@ -10,7 +10,7 @@
 
 2. **Shallow clones data using the spread syntax let shallowClone = [...result]**
 
-3. **Maps through the shallow Clone array objects and adds a video url, and record time inside of each array of the cloned array**
+3. **Maps through the shallow cloned array and adds a video url, and record time inside of each array object**
 
 4. **Paginates data with concat + page number**
 
